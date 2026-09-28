@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/stripdiff",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Strip filesystem diff paths across POSIX and Windows conventions.",
+  "bin": {
+    "stripdiff": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/stripdiff.git"
+  },
+  "homepage": "https://theworker02.github.io/stripdiff/",
+  "keywords": [
+    "strip",
+    "diff",
+    "path",
+    "cli",
+    "toolkit"
+  ]
+}
